@@ -46,14 +46,14 @@ Upon successful extraction and optimal hyperparameter tuning, the algorithm effe
 ### 1. Hyperparameter Optimization
 Systematic search for the optimal spatial smoothing factor, evaluating noise reduction efficiency and identifying the mathematical stability region.
 
-![Hyperparameter Optimization](img/Hyperparameter_Optimization_2.png)
+![Hyperparameter Optimization](img/Hyperparameter_Optimization.png)
 
 ### 2. Synthetic 2D Evaluation
 Spatial comparison between the ideal target distribution (Ground Truth), the noisy synthetic input (Raw), and the reconstructed array (IDW Prediction) operating over the highest density mesh area.
 
-![Synthetic 2D Evaluation](img/Synthetic_2D_Evaluation_2.jpg)
+![Synthetic 2D Evaluation](img/Synthetic_2D_Evaluation.png)
 
 ### 3. Real Physical Data Processing
 Application of the optimized smoothing matrix to the active simulation's raw arrays, effectively isolating the thermal distribution while strictly conserving total integral energy.
 
-![Real Data Processing](img/Real_Data_Evaluation.jpg)
+![Real Data Processing](img/Real_Data_Evaluation.png)
